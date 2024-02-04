@@ -1,0 +1,38 @@
+name: tutor
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  google_fonts: ^6.1.0
+  google_maps_flutter: ^2.5.3
+  
+
+dev_dependencies: 
+  flutter_lints: ^3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  generate: true
+  assets: 
+    - assets/splash/
+    - assets/images/
+
+  fonts: 
+    - family: Bitter
+      fonts:
+        - asset: fonts/Bitter-Medium.ttf
+
+    - family: Bitter_italic
+      fonts:
+        - asset: fonts/Bitter-Mediumitalic.ttf
+  
+
